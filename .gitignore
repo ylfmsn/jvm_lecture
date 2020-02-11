@@ -1,0 +1,23 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+### 无法筛选.idea文件夹时，清除所有被track文件的缓存 'git rm -r --cached .'， 然后重新添加track 'git add .'，此时.gitignore生效 ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
