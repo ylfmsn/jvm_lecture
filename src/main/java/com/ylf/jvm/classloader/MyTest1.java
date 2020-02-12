@@ -3,6 +3,10 @@ package com.ylf.jvm.classloader;
 /**
  * 对于静态字段来说，只有直接定义了该字段的类才会被初始化
  * 当一个类在初始化时，要求其父类全部都已经初始化完毕了
+ * -XX:+TraceClassLoading，用于追踪类的加载信息并打印出来
+ * -XX:+<option>，表示开始option选项，针对于默认关闭的选项进行的操作
+ * -XX:-<option>，表示关闭option选项，针对与默认开启的选项进行的操作
+ * -XX:<option>=<value>，表示将option选项的值设置为value
  */
 public class MyTest1 {
 
